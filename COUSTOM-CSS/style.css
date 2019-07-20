@@ -1,0 +1,116 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+.imain{
+	width: 100%;
+	border-radius: 8px;
+	box-shadow: 0px 0px 13px 2px black;
+}
+.flow{
+	background: linear-gradient(90deg, #b2d6dbb5, #4eb974);
+	padding-bottom: 52px;
+}
+.img-brand{
+	color: white;
+}
+.imain-background{
+    background: #80c9aa;
+    padding: 18px;
+    border-radius: 22px;
+    margin-top: -68px;
+}
+.sc-t{
+	margin-top: 15px;
+}
+.card-container{
+	margin-top: 20px;
+}
+a.nav-link {
+    float: left;
+    margin-left: 54px;
+}
+.navbar-light .navbar-brand{
+	color: white;
+	font-size: 1em;
+}
+.navbar-light .navbar-brand:hover{
+	color: blue;
+}
+hr{
+	border: 2px solid green;
+	transform: rotate3d(1, 21, 23, 2.8deg);
+}
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+    color: blue;
+    text-decoration: underline;
+    padding-top: 1px;
+    transition: 0.5s;
+}
+.container.scr-back {
+    background: linear-gradient(90deg, #ff99e9, #9083ff);
+    padding: 33px;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+.col-md-6 {
+    z-index: 1;
+}
+h2.h-b:before {
+    content: '';
+    width: 300px;
+    height: 55px;
+    left: 123px;
+    background: #0000004d;
+    position: absolute;
+    z-index: -1;
+    transform: skewX(-34deg);
+}
+.flow-next{
+	background: linear-gradient(90deg, #9985fd, #cd8ff3);
+	padding-bottom: 45px;
+	padding-top: 32px;
+}
+hr.ng{
+	border: 2px solid green;
+	transform: rotate3d(1, 21, 23, -2.8deg);
+}
+@media(min-width:992px) and (max-width:1199px){
+	h2.h-b:before {
+    content: '';
+    width: 300px;
+    height: 55px;
+    left: 85px;
+    background: #0000004d;
+    position: absolute;
+    z-index: -1;
+    transform: skewX(-34deg);
+}
+}
+@media(min-width:768px) and (max-width:991px){
+	h2.h-b:before {
+    content: '';
+    width: 300px;
+    height: 55px;
+    left: 23px;
+    background: #0000004d;
+    position: absolute;
+    z-index: -1;
+    transform: skewX(-34deg);
+}
+}
+@media(max-width:767px){
+	h2.h-b:before {
+    content: '';
+    width: 68%;
+    height: 55px;
+    left: 16%;
+    background: #0000004d;
+    position: absolute;
+    z-index: -1;
+    transform: skewX(-34deg);
+}
+}
